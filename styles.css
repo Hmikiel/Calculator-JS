@@ -1,0 +1,36 @@
+button {
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 5px 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.nr:hover{
+    background-color: rgb(88, 190, 248);
+}
+
+input {
+    box-sizing: border-box;
+    width: 215px;
+    margin: 0px 0px 5px 0px;
+    text-align: right;
+    font-size: 150%;
+}
+
+.nr {
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.rownasie {
+    background-color: pink;
+}
+.rownasie:hover {
+    background-color: rgb(228, 90, 90);
+}

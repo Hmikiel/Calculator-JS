@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="kalkulator">
+        <input type="text" id="wyswietlacz" value="0">
+        <br />
+        <button onclick="CE()">CE</button><button onclick="C()">C</button><button onclick="strzalka()"> ← </button><button onclick="dzialanie('/')">/</button>
+
+        <br />
+        <button class="nr" onclick="przycisk('7')">7</button><button class="nr" onclick="przycisk('8')">8</button><button class="nr" onclick="przycisk('9')">9</button><button onclick="dzialanie('*')">*</button>
+
+        <br />
+        <button class="nr" onclick="przycisk('4')">4</button><button class="nr" onclick="przycisk('5')">5</button><button class="nr" onclick="przycisk('6')">6</button><button onclick="dzialanie('-')">-</button>
+
+        <br />
+        <button class="nr" onclick="przycisk('1')">1</button><button class="nr" onclick="przycisk('2')">2</button><button class="nr" onclick="przycisk('3')">3</button><button onclick="dzialanie('+')">+</button>
+
+        <br />
+        <button class="nr" onclick="plusminus()">&#xB1;</button><button class="nr" onclick="przycisk('0')">0</button><button class="nr" onclick="przecinek()">,</button><button class="rownasie" onclick="rownasie()">=</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
